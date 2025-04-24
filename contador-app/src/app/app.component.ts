@@ -18,4 +18,7 @@ export class AppComponent {
   resta() {
     this.edad--;
   }
+  getEdad(data: number) {
+    this.edad = data;
+  }
 }
